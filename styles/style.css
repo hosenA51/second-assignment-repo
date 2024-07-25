@@ -9,7 +9,7 @@ body {
     max-width: 100%;
 }
 
-/* navbar style start here */
+/* navbar style starts here */
 .header-section {
     width: 100%;
     height: 715px;
@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .nav-container {
     width: 80%;
@@ -66,7 +67,7 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-/* banner section style start here */
+/* banner section style starts here */
 .banner-container {
     width: 80%;
     display: flex;
@@ -225,7 +226,76 @@ body {
     color: #ffffff;
     display: none;
 }
+/* habits section style starts here */
+.habits-container {
+    width: 76%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.habits-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.habits-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+}
 
+.habits-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 06%;
+    margin-top: 50px;
+}
+.habits-items img {
+    border-radius: 50%;
+    border: 5px solid #1a1a1a;
+}
+.habits-items h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+.habits-items p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+.item-movement {
+    width: 20%;
+}
+.item-time {
+    width: 20%;
+}
+.item-practice {
+    width: 20%;
+}
+.item-wt-loss {
+    width: 20%;
+}
 /* Responsive design */
 @media screen and (max-width: 576px) {
     body {
@@ -305,8 +375,8 @@ body {
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         border-radius: 09.7px;
         backdrop-filter: blur(15.12px);
-        left: 260px;
-        top: 490px;
+        left: 53%;
+        top: 48%;
     }
     .Workout-videos h1 {
         font-size: 30.24px;
@@ -329,8 +399,8 @@ body {
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(15.12px);
-        left: 70px;
-        top: 712px;
+        left: 21%;
+        top: 69.7%;
     }
     .ball {
         margin-left: 10px;
