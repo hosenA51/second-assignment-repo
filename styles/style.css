@@ -296,8 +296,64 @@ body {
 .item-wt-loss {
     width: 20%;
 }
+/* run section style starts here */
+.run-container {
+    width: 77%;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 150px;
+}
+.run-text-content {
+    width: 50%;
+    margin-left: 40px;
+}
+.run-text-content button {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.run-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 17px;
+}
+.run-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.run-img {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+}
+.run-img img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
 /* Responsive design */
 @media screen and (max-width: 576px) {
+    
+    /* navbar & banner section responsive starts here */
     body {
         max-width: 100%;
         margin: 0 auto;
@@ -421,4 +477,8 @@ body {
         margin-bottom: 8px;
     }
     /* navbar & banner section responsive ends here */
+
+    /* habits section responsive starts here  */
+
+    /* habits section responsive ends here  */
 }
