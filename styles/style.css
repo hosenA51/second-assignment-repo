@@ -350,6 +350,167 @@ body {
     height: 312px;
     border-radius: 18px;
 }
+/* trainings section style starts here */
+.trainings-container {
+    width: 77%;
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.trainings-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.trainings-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 47px;
+}
+.row-1 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+.exercise-1 {
+    position: relative;
+    width: 22%;
+    background: url(/images/exercise1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+}
+.exercise-1 p {
+    top: 70%;
+    left: 08%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+.exercise-2 {
+    position: relative;
+    width: 53%;
+    background: url(/images/exercise2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.exercise-2 p {
+    top: 8%;
+    left: 08%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+.exercise-3 {
+    position: relative;
+    width: 25%;
+    background: url(/images/exercise3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.exercise-3 p{
+    top: 70%;
+    left: 08%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+.row-2 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+.exercise-4 {
+    position: relative;
+    width: 41%;
+    background: url(/images/exercise4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.exercise-4 p {
+    top: 8%;
+    left: 55%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+.exercise-5 {
+    position: relative;
+    width: 27%;
+    background: url(/images/exercise5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.exercise-5 p {
+    top: 70%;
+    left: 08%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+.exercise-6 {
+    position: relative;
+    width: 32%;
+    background: url(/images/exercise6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+}
+.exercise-6 p {
+    top: 70%;
+    left: 08%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
 /* Responsive design */
 @media screen and (max-width: 576px) {
     
