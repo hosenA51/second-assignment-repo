@@ -715,6 +715,7 @@ td {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    margin-bottom: 150px;
 }
 .meet-team-text {
     margin: 0 auto;
@@ -741,7 +742,7 @@ td {
 }
 .trainers {
     position: relative;
-    width: 96.4%;
+    width: 96.3%;
     height: 570px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
@@ -750,11 +751,11 @@ td {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    padding: 25px 20px 20px 20px;
-    gap: 30px 20px;
+    padding: 20px;
+    gap: 20px;
 }
 .item {
-    width: 350px;
+    width: 100%;
     height: 272px;
     justify-content: center;
     align-items: center;
@@ -766,6 +767,7 @@ td {
     border-radius: 18px;
     background: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
+    position: relative;
 }
 .trainer-name {
     position: absolute;
@@ -790,6 +792,121 @@ td {
     text-align: left;
     margin-top: -3%;
     margin-left: 20px;
+}
+/* footer section style starts here */
+.footer-container {
+    width: 100%;
+    height: 495px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-first-content {
+    width: 75%;
+    height: 249px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-column {
+    margin-top: 66px;
+}
+.logo-column h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+.logo-column p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 23px;
+}
+.second-column {
+    margin-top: 66px;
+    margin-left: 55px;
+}
+.second-column h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.second-column h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 17px;
+    cursor: pointer;
+}
+.third-column {
+    margin-top: 66px;
+}
+.third-column h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.third-column h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 17px;
+    cursor: pointer;
+}
+hr {
+    width: 75%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 110px;
+}
+.copyright-text{
+    margin-bottom: 30px;
+}
+.copyright-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
 }
 /* Responsive design */
 @media screen and (max-width: 576px) {
