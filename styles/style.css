@@ -390,10 +390,10 @@ body {
 .exercise-1 {
     position: relative;
     width: 22%;
-    background: url(/images/exercise1.jpg);
+    background-color: rgba(6, 255, 210, 0.5);
+    background-image: url('../images/exercise1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(6, 255, 210, 0.5);
     background-blend-mode: overlay;
 }
 .exercise-1 p {
@@ -410,10 +410,10 @@ body {
 .exercise-2 {
     position: relative;
     width: 53%;
-    background: url(/images/exercise2.png);
+    background-color: rgba(255, 0, 0, 0.3);
+    background-image: url('../images/exercise2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(255, 0, 0, 0.3);
     background-blend-mode: overlay;
 }
 .exercise-2 p {
@@ -430,10 +430,10 @@ body {
 .exercise-3 {
     position: relative;
     width: 25%;
-    background: url(/images/exercise3.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/exercise3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 .exercise-3 p{
@@ -455,10 +455,10 @@ body {
 .exercise-4 {
     position: relative;
     width: 41%;
-    background: url(/images/exercise4.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/exercise4.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 .exercise-4 p {
@@ -475,10 +475,10 @@ body {
 .exercise-5 {
     position: relative;
     width: 27%;
-    background: url(/images/exercise5.jpg);
+    background-color: rgba(66, 255, 0, 0.3);
+    background-image: url('../images/exercise5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(66, 255, 0, 0.3);
     background-blend-mode: overlay;
 }
 .exercise-5 p {
@@ -495,10 +495,10 @@ body {
 .exercise-6 {
     position: relative;
     width: 32%;
-    background: url(/images/exercise6.jpg);
+    background-color: rgba(0, 71, 255, 0.3);
+    background-image: url('../images/exercise6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 71, 255, 0.3);
     background-blend-mode: overlay;
 }
 .exercise-6 p {
