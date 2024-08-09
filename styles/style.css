@@ -303,14 +303,15 @@ body {
     height: 371px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 150px;
 }
 .run-text-content {
     width: 50%;
-    margin-left: 40px;
+    margin-left: 3.375rem;
 }
 .run-text-content button {
     width: 224px;
@@ -330,6 +331,7 @@ body {
     line-height: 120%;
     letter-spacing: 0%;
     margin-bottom: 17px;
+    margin-top: 0;
 }
 .run-container p {
     color: rgba(255, 255, 255, 0.5);
@@ -340,16 +342,17 @@ body {
     letter-spacing: 0.3px;
 }
 .run-img {
-    width: 40%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-right: 20px;
+    width: 32%;
+    height: 19.3rem;
+    margin-right: 2.1rem;
 }
 .run-img img {
-    width: 366px;
-    height: 312px;
+    width: 100%;
+    height: 100%;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 70% 31%;
+    zoom: 80%;
 }
 /* trainings section style starts here */
 .trainings-container {
@@ -915,6 +918,7 @@ hr {
     body {
         max-width: 100%;
         margin: 0 auto;
+        border: 2px solid red;
     }
     .ham-burger {
         display: block;
@@ -1004,7 +1008,6 @@ hr {
         margin-left: 15px;
         letter-spacing: 0.76px;
     }
-    
     .video-tutorial {
         width: 160px;
         height: 72.58px;
@@ -1026,7 +1029,6 @@ hr {
         margin-bottom: 7px;
         margin-top: 6px;
     }
-    
     .video-tutorial p {
         font-size: 12.1px;
         letter-spacing: 0.38px;
@@ -1035,8 +1037,4 @@ hr {
         margin-bottom: 8px;
     }
     /* navbar & banner section responsive ends here */
-
-    /* habits section responsive starts here  */
-
-    /* habits section responsive ends here  */
 }
